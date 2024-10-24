@@ -24,3 +24,10 @@ Flag `-k` can be used to skip the certificate check. Only use this for testing a
 
 Flag `-v` can be used to print both the request and response. The `-vvv` flag shows even more verbose output.
 
+## Showing Headers
+
+Flag `-I` is used to only display the response headers through a HEAD request. Flag `-i` is used to display both the headers and the response body.
+
+## Setting Headers
+
+Request headers can be set using the `-H` flag. The flag `-A` can be used to set the User-Agent header specifically.
