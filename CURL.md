@@ -34,4 +34,4 @@ Request headers can be set using the `-H` flag. The flag `-A` can be used to set
 
 ## HTTP Basic Auth Credentials
 
-To provide credentials through cURL, the `-u` flag can be used, with `user:password` as the argument. The credentials can also be put directly in the url, in between the scheme and host.
+To provide credentials through cURL, the `-u` flag can be used, with `user:password` as the argument. The credentials can also be put directly in the url, in between the scheme and host. A third way is by directly setting the Authorization header with the `-H` flag.
