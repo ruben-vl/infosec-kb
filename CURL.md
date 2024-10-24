@@ -19,3 +19,8 @@ Flag `-s` can be used to silence the printing of status messages from cURL.
 ## Skip Certificate Check
 
 Flag `-k` can be used to skip the certificate check. Only use this for testing a local web application or for practice purposes.
+
+## Verbose
+
+Flag `-v` can be used to print both the request and response. The `-vvv` flag shows even more verbose output.
+
