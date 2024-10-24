@@ -28,3 +28,7 @@ ex: http://admin:password@inlanefreight.com:80/dashboard.php?login=true#status
 - Key exchange to exchange SSL certificates
 - Encrypted handshake to confirm whether encryption and transfer are working
 - Encrypted HTTP communication
+
+## HTTP Downgrade Attack
+
+Downgrades HTTPS to HTTP, making the data transferred clear-text. This is done by setting up a Man-in-the-Middle (MitM) proxy to transfer all traffic through the attacker's host without the user's knowledge.
