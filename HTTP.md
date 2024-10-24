@@ -3,6 +3,7 @@
 ## Port
 
 Default port: 80
+- When using HTTPS, a request to port `80` will be redirected through a `301 Moved Permanently` response to port `443`
 
 ## Abbreviations
 
