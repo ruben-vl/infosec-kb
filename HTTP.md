@@ -20,3 +20,11 @@ ex: http://admin:password@inlanefreight.com:80/dashboard.php?login=true#status
 - "dashboard.php": Path
 - "?login=true": Query String
 - "#status": Fragment
+
+## HTTPS
+
+- Client Hello
+- Server Hello
+- Key exchange to exchange SSL certificates
+- Encrypted handshake to confirm whether encryption and transfer are working
+- Encrypted HTTP communication
