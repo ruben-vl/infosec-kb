@@ -21,6 +21,19 @@ ex: http://admin:password@inlanefreight.com:80/dashboard.php?login=true#status
 - "?login=true": Query String
 - "#status": Fragment
 
+## HTTP Requests and Responses
+
+Request example:
+```http
+GET /users/login.html HTTP/1.1
+```
+- "GET": HTTP Method
+- "/users/login.html": Path
+- "HTTP/1.1": HTTP Version
+
+After this, headers can be given, separated by newlines.
+Finally, a request may end with a request body and data.
+
 ## HTTPS
 
 - Client Hello
