@@ -88,3 +88,11 @@ e.g. Server, Set-Cookie, WWW-Authenticate
 Finally, we have Security Headers. With the increase in the variety of browsers and web-based attacks, defining certain headers that enhanced security was necessary. HTTP Security headers are a class of response headers used to specify certain rules and policies to be followed by the browser while accessing the website.
 
 e.g. Content-Security-Policy, Strict-Transport-Security, Referrer-Policy
+
+## Request Methods
+
+https://academy.hackthebox.com/module/35/section/221
+
+## HTTP Basic Auth
+
+Directly handled by the webserver to protect a specific page/directory, without directly interacting with the web application.
