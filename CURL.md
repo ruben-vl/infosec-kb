@@ -15,3 +15,7 @@ Flag `-O` can be used to download the response with the remote file name. Flag `
 ## Silent
 
 Flag `-s` can be used to silence the printing of status messages from cURL.
+
+## Skip Certificate Check
+
+Flag `-k` can be used to skip the certificate check. Only use this for testing a local web application or for practice purposes.
