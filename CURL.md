@@ -31,3 +31,7 @@ Flag `-I` is used to only display the response headers through a HEAD request. F
 ## Setting Headers
 
 Request headers can be set using the `-H` flag. The flag `-A` can be used to set the User-Agent header specifically.
+
+## HTTP Basic Auth Credentials
+
+To provide credentials through cURL, the `-u` flag can be used, with `user:password` as the argument. The credentials can also be put directly in the url, in between the scheme and host.
