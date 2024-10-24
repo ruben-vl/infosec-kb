@@ -96,3 +96,7 @@ https://academy.hackthebox.com/module/35/section/221
 ## HTTP Basic Auth
 
 Directly handled by the webserver to protect a specific page/directory, without directly interacting with the web application.
+
+## Authorization Header
+
+For basic HTTP auth, the Authorization header contains "Basic `base64 encoded value of user:password`". For a more modern method of authentication (e.g. JWT), the Authorization would be of type "Bearer" and would contain a longer encrypted token.
