@@ -34,6 +34,13 @@ GET /users/login.html HTTP/1.1
 After this, headers can be given, separated by newlines.
 Finally, a request may end with a request body and data.
 
+Response example:
+```http
+HTTP/1.1 200 OK
+```
+- "HTTP/1.1": HTTP Version
+- "200 OK": Response Code
+
 ## HTTP 2.X
 
 HTTP version 1.X sends requests as clear-text, and uses a new-line character to separate different fields and different requests. HTTP version 2.X, on the other hand, sends requests as binary data in a dictionary form.
